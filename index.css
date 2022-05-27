@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #FFFAF0;
+}
+
+.logo {
+    width: 25%;
+    margin-top: 3%;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav {
+    align-items: center;
+}
+
+#tabResult {
+    max-width: 50%;
+    text-align: center;
+}

@@ -4,9 +4,59 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
         <title>O Jogo do Bicho</title>
     </head>
     <body>
-        
+        <header>
+            <div class="container">
+                <img src="img/logoJDB.png" alt="Logo do Jogo do Bicho com um Galo" class="logo">
+
+                <ul class="nav justify-content-end">
+                    <li class="nav-item">
+                      <a class="nav-link active" href="#">Ínicio</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active" href="#">Tabelão</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active" href="#">Realize sua aposta</a>
+                    </li>
+                  </ul>
+            </div>            
+        </header>
+
+        <main>
+          <table class="table table-striped" id="tabResult">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Primeiro</th>
+                <th scope="col">Último</th>
+                <th scope="col">Nickname</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>Larry</td>
+                <td>the Bird</td>
+                <td>@twitter</td>
+              </tr>
+            </tbody>
+          </table>
+        </main>
     </body>
 </html>
