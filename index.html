@@ -2,61 +2,119 @@
     <html lang="pt-br">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
         <link rel="stylesheet" href="index.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
         <title>O Jogo do Bicho</title>
     </head>
     <body>
         <header>
-            <div class="container">
-                <img src="img/logoJDB.png" alt="Logo do Jogo do Bicho com um Galo" class="logo">
-
-                <ul class="nav justify-content-end">
-                    <li class="nav-item">
-                      <a class="nav-link active" href="#">Ínicio</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link active" href="#">Tabelão</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link active" href="#">Realize sua aposta</a>
-                    </li>
-                  </ul>
-            </div>            
+          <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">JOGO DO BICHO</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#textoNavbar" aria-controls="textoNavbar" aria-expanded="false" aria-label="Alterna navegação">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="textoNavbar">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Página Inicial</a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Tabelão</a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Realizar sua aposta</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
         </header>
 
         <main>
-          <table class="table table-striped" id="tabResult">
+
+          <img src="img/logoJDB.png" alt="Logo do Jogo do Bicho com uma Galinha e um ovo" id="logo">
+
+          <table class="table table-borderless" id="tabResult">
+
             <thead>
               <tr>
-                <th scope="col">#</th>
-                <th scope="col">Primeiro</th>
-                <th scope="col">Último</th>
-                <th scope="col">Nickname</th>
+                <th scope="col"></th>
+                <th scope="col">PTM</th>
+                <th scope="col">PT</th>
+                <th scope="col">PTV</th>
+                <th scope="col">FED</th>
+                <th scope="col">COR</th>
               </tr>
             </thead>
+
             <tbody>
               <tr>
-                <th scope="row">1</th>
-                <td>Mark</td>
-                <td>Otto</td>
-                <td>@mdo</td>
+                <th scope="row">1º</th>
+                <td>0417-5</td>
+                <td>2143-11</td>
+                <td>0824-6</td>
+                <td>9009-3</td>
+                <td>2923-6</td>
               </tr>
               <tr>
-                <th scope="row">2</th>
-                <td>Jacob</td>
-                <td>Thornton</td>
-                <td>@fat</td>
+                <th scope="row">2º</th>
+                <td>2002-1</td>
+                <td>8763-16</td>
+                <td>3182-21</td>
+                <td>4316-4</td>
+                <td>9521-6</td>
               </tr>
               <tr>
-                <th scope="row">3</th>
-                <td>Larry</td>
-                <td>the Bird</td>
-                <td>@twitter</td>
+                <th scope="row">3º</th>
+                <td>9336-9</td>
+                <td>8248-12</td>
+                <td>0729-8</td>
+                <td>1031-8</td>
+                <td>1828-7</td>
+              </tr>
+              <tr>
+                <th scope="row">4º</th>
+                <td>2569-18</td>
+                <td>9397-25</td>
+                <td>2325-7</td>
+                <td>3899-25</td>
+                <td>1171-18</td>
+              </tr>
+              <tr>
+                <th scope="row">5º</th>
+                <td>7464-16</td>
+                <td>5095-24</td>
+                <td>0029-8</td>
+                <td>8748-12</td>
+                <td>3250-13</td>
+              </tr>
+              <tr>
+                <th scope="row">6º</th>
+                <td>1788-22</td>
+                <td>3646-12</td>
+                <td>7089-23</td>
+                <td>7003-1</td>
+                <td>8693-24</td>
+              </tr>
+              <tr>
+                <th scope="row">7º</th>
+                <td>834-9</td>
+                <td>779-20</td>
+                <td>621-6</td>
+                <td>222-6</td>
+                <td>829-8</td>
               </tr>
             </tbody>
           </table>
         </main>
     </body>
 </html>
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>

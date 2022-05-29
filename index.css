@@ -1,24 +1,24 @@
-* {
-    margin: 0;
-    padding: 0;
+main, html {
     background-color: #FFFAF0;
 }
 
-.logo {
-    width: 25%;
-    margin-top: 3%;
+header {
+    font-weight: bold;
+}
+#logo {
+    width: 350px;
+    margin: auto;
+    display: block;
 }
 
-.container {
-    display: flex;
-    justify-content: space-between;
-}
-
-.nav {
-    align-items: center;
+thead {
+    background-color: #343a40;
+    color: white;
 }
 
 #tabResult {
     max-width: 50%;
     text-align: center;
+    margin: auto;
+    
 }
