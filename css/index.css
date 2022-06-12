@@ -1,0 +1,16 @@
+#logo {
+    width: 350px;
+    margin: auto;
+    display: block;
+}
+
+thead {
+    background-color: #343a40;
+    color: white;
+}
+
+#tabResult {
+    max-width: 50%;
+    text-align: center;
+    margin: auto;
+}
