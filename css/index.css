@@ -14,3 +14,20 @@ thead {
     text-align: center;
     margin: auto;
 }
+
+@media (max-width: 575.98px) {
+    main {
+        margin-bottom: 100px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    #logo {
+        margin-top: 50px;
+    }
+    
+    #tabResult {
+        max-width: 85%;
+        font-size: 1.25rem;
+    }
+}
